@@ -5,26 +5,24 @@ import enum
 
 
 
-IMAGE_FOLDER = "images"
+IMAGE_FOLDER = "pytunes/images"
 
 aa="(3dedb2 (3c=dca2   |  (3BcBg2 Aeae' | dgbd' g'b'e''d'' | "
 bb=" G,,4^D,4 & G,,2[D,2B,2] ^D,2[F,2C2] | E,4C,4 & E,2[G,2B,2] C,2[A,2E2] | "
 
 
-
-#            "CCCCC CCCCC# DDDDD DDDDD# EEEEE FFFFF FFFFF# GGGGG GGGGG# AAAAA AAAAA# BBBBB " \
-#            "CCCC CCCC# DDDD DDDD# EEEE FFFF FFFF# GGGG GGGG# AAAA AAAA# BBBB " \
 OCTAVE = 7
 OCTAVE_TONES = 12
-ALL_TONES = "" \
+ALL_TONES = "CCCCC CCCCC# DDDDD DDDDD# EEEEE FFFFF FFFFF# GGGGG GGGGG# AAAAA AAAAA# BBBBB " \
+            "CCCC CCCC# DDDD DDDD# EEEE FFFF FFFF# GGGG GGGG# AAAA AAAA# BBBB " \
             "CCC CCC# DDD DDD# EEE FFF FFF# GGG GGG# AAA AAA# BBB " \
             "CC CC# DD DD# EE FF FF# GG GG# AA AA# BB " \
             "C C# D D# E F F# G G# A A# B " \
             "c c# d d# e f f# g g# a a# b " \
             "cc cc# dd dd# ee ff ff# gg gg# aa aa# bb " \
-            "ccc ccc# ddd ddd# eee fff fff# ggg ggg# aaa aaa# bbb"
-#            "cccc cccc# dddd dddd# eeee ffff ffff# gggg gggg# aaaa aaaa# bbbb " \
-#            "ccccc ccccc# ddddd ddddd# eeeee fffff fffff# ggggg ggggg# aaaaa aaaaa# bbbbb"
+            "ccc ccc# ddd ddd# eee fff fff# ggg ggg# aaa aaa# bbb " \
+            "cccc cccc# dddd dddd# eeee ffff ffff# gggg gggg# aaaa aaaa# bbbb " \
+            "ccccc ccccc# ddddd ddddd# eeeee fffff fffff# ggggg ggggg# aaaaa aaaaa# bbbbb"
 
 ABC_TONES = "C,,,, ˆC,,,, D,,,, ˆD,,,, E,,,, F,,,, ˆF,,,, G,,,, ˆG,,,, A,,,, ˆA,,,, B,,,, " \
             "C,,, ˆC,,, D,,, ˆD,,, E,,, F,,, ˆF,,, G,,, ˆG,,, A,,, ˆA,,, B,,, " \

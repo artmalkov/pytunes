@@ -1,4 +1,4 @@
-from musicbasics import *
+from pytunes.musicbasics import *
 from PIL import Image, ImageDraw
 
 # space for the note the page

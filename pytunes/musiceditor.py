@@ -1,10 +1,10 @@
 import random
 from tkinter import *
 
-import musicplayer
-from musicbasics import *
-import instruments
-import musicsheet
+import pytunes.musicplayer as musicplayer
+from pytunes.musicbasics import *
+import pytunes.instruments as instruments
+import pytunes.musicsheet as musicsheet
 from PIL import Image, ImageTk
 import time
 

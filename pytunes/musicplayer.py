@@ -1,7 +1,7 @@
 import math
 import numpy
 import pygame
-import musicbasics
+import pytunes.musicbasics as musicbasics
 
 class MusicPlayer:
     def __init__(self):

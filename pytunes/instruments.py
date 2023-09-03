@@ -1,6 +1,6 @@
 import os
 from PIL import Image
-import musicbasics
+import pytunes.musicbasics as musicbasics
 
 INSTRUMENT_WIDTH = 300
 
